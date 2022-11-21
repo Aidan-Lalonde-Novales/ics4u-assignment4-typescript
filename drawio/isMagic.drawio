@@ -1,0 +1,76 @@
+<mxfile host="65bd71144e">
+    <diagram id="q7JZCSy0gCoaakLFXjkL" name="Page-1">
+        <mxGraphModel dx="1074" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="19" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="40" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="114" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="get sqrArray: number[ ]" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="120" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="510" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="98" target="129" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="&lt;span&gt;row1 = sqrArray[0] + sqrArray[1] + sqrArray[2]&lt;br&gt;row2 = sqrArray[3] + sqrArray[4] + sqrArray[5]&lt;br&gt;row3 = sqrArray[6] + sqrArray[7] + sqrArray[8]&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="200" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="114" target="98" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="209" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="121" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="114" target="120" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="if hasDuplicates(&lt;br&gt;sqrArray)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="180" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="278.5" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="199" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" parent="1" source="120" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="180" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="120" value="return false" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="309" width="110" height="32.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="129" target="131" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="&lt;span&gt;&lt;div&gt;col1 = sqrArray[0] + sqrArray[3] + sqrArray[6]&lt;/div&gt;&lt;div&gt;&lt;span&gt;col2 = sqrArray[1] + sqrArray[4] + sqrArray[7]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;col3 = sqrArray[2] + sqrArray[5] + sqrArray[8]&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="281.5" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="131" target="133" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="&lt;span&gt;diag1 = sqrArray[0] + sqrArray[4] + sqrArray[8]&lt;br&gt;diag2 = sqrArray[2] + sqrArray[4] + sqrArray[6]&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="360" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="133" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="return (&lt;span&gt;row1 === row2 &amp;amp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;row2 === row3 &amp;amp;&amp;amp;&lt;br&gt;&lt;/span&gt;&lt;span&gt;row3 === col1 &amp;amp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;col1 === col2 &amp;amp;&amp;amp;&lt;br&gt;&lt;/span&gt;&lt;span&gt;col2 === col3 &amp;amp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;col3 === diag1 &amp;amp;&amp;amp;&lt;br&gt;&lt;/span&gt;&lt;span&gt;diag1 === diag2 &amp;amp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;diag2 === MAGIC_NUM)&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="245" y="420" width="320" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
